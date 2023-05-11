@@ -1,8 +1,4 @@
-from core.variable import Variable
-from core.addition import Addition
-from core.logistic import Logistic
-from core.multiplication import Multiplication
-from core.constant import Constant
+from core import *
 
 # The gist of AD is that it uses the chain rule to decompose complex derivatives
 # into very elementary ones that we know. 
